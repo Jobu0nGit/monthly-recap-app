@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "X Monthly Recap - Your Month in Numbers",
+  title: "XRecap - Your Month in Numbers",
   description: "Real stats from your X activity. Top tweets, engagement patterns, and AI insights.",
 };
 

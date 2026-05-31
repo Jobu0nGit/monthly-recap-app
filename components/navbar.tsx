@@ -7,7 +7,7 @@ export function Navbar({ onNewSearch, showNewSearch }: NavbarProps) {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="font-semibold text-gold tracking-wide">
-        <span className="opacity-60 mr-1">&#10022;</span> X RECAP
+        <span className="opacity-60 mr-1">&#10022;</span> XRECAP
       </div>
       
       <ul className="hidden md:flex items-center gap-8">
