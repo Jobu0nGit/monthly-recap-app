@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, JetBrains_Mono } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const syne = Syne({
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en" className={`${syne.variable} ${jetbrainsMono.variable}`}>
       <body className="bg-background antialiased">
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
